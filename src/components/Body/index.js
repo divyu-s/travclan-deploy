@@ -24,7 +24,7 @@ export default function Index() {
       //setCustomersList(filterCustomerListJson);
     };
     getDataFromApi();
-  });
+  },[]);
 
   const getBid = (bids) => {
     //console.log(bids);
