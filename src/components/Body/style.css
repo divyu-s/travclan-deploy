@@ -1,0 +1,59 @@
+.body {
+  margin-top: 2vh;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.avater {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.toggle {
+  margin-bottom: 2vh;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.toggle > button {
+  border-radius: 10px;
+  background-color: #4232a8;
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+}
+
+.paginationBttns {
+  margin-top: 20px;
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+  border: 1px solid #4232a8;
+  color: #4232a8;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #4232a8;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #4232a8;
+}
+
+.paginationDisabled a {
+  display: none;
+}
